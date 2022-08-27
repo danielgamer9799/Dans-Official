@@ -52,7 +52,7 @@ local UICorner_10 = Instance.new("UICorner")
 --Properties:
 
 DansGui.Name = "DansGui"
-DansGui.Parent = game.Workspace
+DansGui.Parent = game.CoreGui
 DansGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
