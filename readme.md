@@ -1,4 +1,4 @@
 # Dans
-#```lua
-game:httpget()
+```lua
+--loader coming soon
 ```
