@@ -1,7 +1,7 @@
 --loader for the script
 local games = {
-    ["4924922222"] = "",
-    ["6839171747"] = ""
+    ["4924922222"] = "https://raw.githubusercontent.com/danielgamer9799/Dans-Official/main/Dans/Brookhaven/gamescript.lua",
+    ["155615604"] = "https://raw.githubusercontent.com/danielgamer9799/Dans-Official/main/Dans/Prison%20Life/gamescript.lua"
 }
 
 for id, url in next, games do
