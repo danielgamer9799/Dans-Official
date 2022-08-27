@@ -52,7 +52,7 @@ local UICorner_10 = Instance.new("UICorner")
 --Properties:
 
 DansGui.Name = "DansGui"
-DansGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DansGui.Parent = game.Workspace
 DansGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
@@ -390,23 +390,23 @@ UICorner_10.Parent = Button
 
 -- Scripts:
 
-local function AOCPAGV_fake_script() -- UnlockDoors.LocalScript 
+local function WRMIKCH_fake_script() -- UnlockDoors.LocalScript 
 	local script = Instance.new('LocalScript', UnlockDoors)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Workspace.Doors:Destroy()
 	end)
 end
-coroutine.wrap(AOCPAGV_fake_script)()
-local function NZPH_fake_script() -- UnlockFences.LocalScript 
+coroutine.wrap(WRMIKCH_fake_script)()
+local function PHJUIHR_fake_script() -- UnlockFences.LocalScript 
 	local script = Instance.new('LocalScript', UnlockFences)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Workspace.Prison_Fences:Destroy()
 	end)
 end
-coroutine.wrap(NZPH_fake_script)()
-local function HQAH_fake_script() -- Scripts.MainScript 
+coroutine.wrap(PHJUIHR_fake_script)()
+local function HCZSCIO_fake_script() -- Scripts.MainScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	local frame = script.Parent.Parent
@@ -435,8 +435,8 @@ local function HQAH_fake_script() -- Scripts.MainScript
 	game.Players.LocalPlayer.PlayerGui.Home.fadeFrame.Visible = false
 	script.Parent.Parent.Somestuff.TeleportEvent.Parent = game:GetService("ReplicatedStorage")
 end
-coroutine.wrap(HQAH_fake_script)()
-local function AVTCVO_fake_script() -- Scripts.TeleportSCript 
+coroutine.wrap(HCZSCIO_fake_script)()
+local function JLRABTI_fake_script() -- Scripts.TeleportSCript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	
@@ -492,12 +492,12 @@ local function AVTCVO_fake_script() -- Scripts.TeleportSCript
 		end
 	end)
 end
-coroutine.wrap(AVTCVO_fake_script)()
-local function FOBG_fake_script() -- Button.LocalScript 
+coroutine.wrap(JLRABTI_fake_script)()
+local function RWEN_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script.lua"))()
 	end)
 end
-coroutine.wrap(FOBG_fake_script)()
+coroutine.wrap(RWEN_fake_script)()
