@@ -1,4 +1,5 @@
 local Player = game.Players.LocalPlayer
+
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Enchanted Island"].islandSignPart.CFrame
 wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Astral Island"].islandSignPart.CFrame
@@ -40,3 +41,11 @@ wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Inner Peace Island"].islandSignPart.CFrame
 wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Blazing Vortex Island"].islandSignPart.CFrame
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Unlocked All Islands";
+	Text = "you can do this multiple times";
+	Icon = "http://www.roblox.com/asset/?id=419589574";
+	Button1 = "ok"; 
+	Duration = "7";
+})
+
