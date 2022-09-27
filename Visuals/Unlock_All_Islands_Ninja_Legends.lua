@@ -1,5 +1,4 @@
 local Player = game.Players.LocalPlayer
-
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Enchanted Island"].islandSignPart.CFrame
 wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Astral Island"].islandSignPart.CFrame
