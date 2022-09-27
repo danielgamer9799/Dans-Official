@@ -49,6 +49,7 @@ wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Inner Peace Island"].islandSignPart.CFrame
 wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Blazing Vortex Island"].islandSignPart.CFrame
+wait(0.4)
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Unlocked All Islands";
 	Text = "you can do this multiple times";
