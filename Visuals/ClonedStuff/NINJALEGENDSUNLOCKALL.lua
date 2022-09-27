@@ -57,3 +57,4 @@ game.StarterGui:SetCore("SendNotification", {
 	Button1 = "ok"; 
 	Duration = "7";
 })
+
