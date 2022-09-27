@@ -1,5 +1,13 @@
 local Player = game.Players.LocalPlayer
 
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Unlocking All Islands";
+	Text = "see the magic happen :)";
+	Icon = "http://www.roblox.com/asset/?id=2459243309";
+	Button1 = "ok"; 
+	Duration = "7";
+})
+
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Enchanted Island"].islandSignPart.CFrame
 wait(1.5)
 Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Astral Island"].islandSignPart.CFrame
