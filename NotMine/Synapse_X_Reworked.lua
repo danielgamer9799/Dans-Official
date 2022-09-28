@@ -1,5 +1,6 @@
 -- Synapse X in game executor reworked by Cremi for scriptblox.com
 
+
 pcall(function() game.CoreGui["Synapse X"]:Destroy() end)
 
 local SynapseXreal = Instance.new("ScreenGui")
